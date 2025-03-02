@@ -1,5 +1,5 @@
 .{
-    .name = "foundation-libc",
+    .name = .foundation_libc,
     .version = "0.0.0",
     .paths = .{
         "LICENSE",
@@ -9,4 +9,5 @@
         "include",
         "src",
     },
+    .fingerprint = 0xf7e0f1fa33970499,
 }

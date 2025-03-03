@@ -1,5 +1,5 @@
 .{
-    .name = "core",
+    .name = .core,
     .version = "0.0.1",
     .paths = .{
         "LICENSE",
@@ -9,4 +9,5 @@
         "src",
         "test",
     },
+    .fingerprint = 0x6b8d854f5c0d643b,
 }

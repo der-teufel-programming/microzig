@@ -1,5 +1,5 @@
 .{
-    .name = "tools/regz",
+    .name = .tools_regz,
     .version = "0.0.0",
     .paths = .{
         "LICENSE",
@@ -11,12 +11,13 @@
     },
     .dependencies = .{
         .libxml2 = .{
-            .url = "https://github.com/mattnite/zig-build-libxml2/archive/fab68b5fb06704ef4bdaa221726493a4b6af04b5.tar.gz",
-            .hash = "122084531ab8ba877a0178fb177a61f6dc9bed56bdcdfb11ad362f352680c04d84cb",
+            .url = "git+https://github.com/der-teufel-programming/mattnite-libxml2#53393c0bdb739d791570ab1112c8de085c712385",
+            .hash = "N-V-__8AADJangAiwgpfHPs9_DD9TU5cyVQk26do24dsdmQb",
         },
         .sqlite = .{
-            .url = "git+https://github.com/vrischmann/zig-sqlite.git#e4afe26b30e03ee5d8b61946893b19c2585745f8",
-            .hash = "122019ea6e071dbd932c3e51d9631d99f007240e3e08d5436a1da20ad088343ca4a7",
+            .url = "git+https://github.com/vrischmann/zig-sqlite.git#fa78f66590be248720f6f63b096b1a47a447e8e2",
+            .hash = "sqlite-3.48.0-F2R_a9aGDgCdy9Es2LS0v3jUxqwCKmu6gVHFUpywEuO5",
         },
     },
+    .fingerprint = 0xf89cb48c761a42e4,
 }
